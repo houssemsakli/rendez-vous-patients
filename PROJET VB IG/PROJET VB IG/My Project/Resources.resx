@@ -1,0 +1,1519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="214-cyclone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\214-cyclone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="065-wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\065-wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="067-chat-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\067-chat-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="089-worship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\089-worship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="067-link" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\067-link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="080-record" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\080-record.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="203-down-arrow-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\203-down-arrow-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="184-wall-clock-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\184-wall-clock-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="223-congratulations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\223-congratulations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="187-wall-clock-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\187-wall-clock-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="213-diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\213-diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="242-clubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\242-clubs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="094-back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\094-back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029-tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\029-tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="103-om" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\103-om.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="013-typing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\013-typing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="120-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\120-new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="112-no-phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\112-no-phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="251-checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\251-checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="159-symbols-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\159-symbols-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="114-no-entry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\114-no-entry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="femalesmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\femalesmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007-switch-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\007-switch-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="098-logogram-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\098-logogram-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="053-next-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\053-next-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="013-attached" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\013-attached.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="185-wall-clock-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\185-wall-clock-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="039-wall-clock-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\039-wall-clock-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130-megaphone-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\130-megaphone-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="028-minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\028-minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="070-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\070-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="165-id" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\165-id.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129-menorah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\129-menorah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="173-chocolate-box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\173-chocolate-box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="093-empty-battery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\093-empty-battery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonajout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonajout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="100-wall-clock-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\100-wall-clock-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="030-reduce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\030-reduce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="150-seven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\150-seven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\logoapp.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="119-next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\119-next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021-circled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\021-circled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001-view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\001-view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="043-loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\043-loading.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="045-crescent-moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\045-crescent-moon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoncnx2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoncnx2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="068-download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\068-download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="068-heart-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\068-heart-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="016-transform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\016-transform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="006-chevron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\006-chevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="065-back-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\065-back-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="047-logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\047-logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007-menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\007-menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="124-musical-note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\124-musical-note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="033-trademark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\033-trademark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="025-upload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\025-upload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="037-more" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\037-more.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoninsv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoninsv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="113-litter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\113-litter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="036-add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\036-add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="244-biohazard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\244-biohazard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="174-heart-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\174-heart-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="211-discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\211-discount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="018-virgo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\018-virgo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="115-bikes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\115-bikes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="126-logogram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\126-logogram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="234-cancer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\234-cancer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="209-dollar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\209-dollar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="106-logogram-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\106-logogram-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="140-left-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\140-left-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="004-menu-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\004-menu-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029-chevron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\029-chevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="077-repeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\077-repeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="028-wall-clock-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\028-wall-clock-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="170-circle-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\170-circle-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="179-heart-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\179-heart-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="148-ten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\148-ten.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="070-wc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\070-wc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="025-type" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\025-type.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="024-button-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\024-button-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="256-physics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\256-physics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="096-close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\096-close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credits1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\credits1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonannuler2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonannuler2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="243-circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\243-circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="016-warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\016-warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="003-scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\003-scroll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="057-wall-clock-13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\057-wall-clock-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="216-exchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\216-exchange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="083-password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\083-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="138-double-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\138-double-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="089-video-camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\089-video-camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011-browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\011-browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="229-cinema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\229-cinema.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="218-cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\218-cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021-slide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\021-slide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="025-up-arrow-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\025-up-arrow-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="080-edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\080-edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="004-player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\004-player.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="004-women" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\004-women.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="037-chat-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\037-chat-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="035-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\035-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="051-information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\051-information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="061-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\061-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="176-heart-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\176-heart-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="069-previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\069-previous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="031-refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\031-refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="155-eight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\155-eight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="091-notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\091-notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="183-free" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\183-free.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="050-heart-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\050-heart-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="099-power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\099-power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonmodifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonmodifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="259-aquarius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\259-aquarius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="044-minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\044-minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="026-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\026-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="238-square-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\238-square-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonajout3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonajout3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="086-plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\086-plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="018-user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\018-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="041-magic-wand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\041-magic-wand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="033-chevron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\033-chevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005-square-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\005-square-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="049-volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\049-volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="122-muted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\122-muted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="073-user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\073-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="023-double-arrow-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\023-double-arrow-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="172-cupid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\172-cupid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoncnxv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoncnxv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="248-heart-beating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\248-heart-beating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="050-chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\050-chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="062-cursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\062-cursor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="030-close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\030-close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="012-delete folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\012-delete folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="198-eject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\198-eject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="221-copyright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\221-copyright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="171-exclamation-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\171-exclamation-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="152-nine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\152-nine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="154-five" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\154-five.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="078-circle-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\078-circle-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="071-logogram-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\071-logogram-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="078-add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\078-add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="064-night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\064-night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="018-file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\018-file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001-browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\001-browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="079-recycling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\079-recycling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-resize-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\002-resize-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="102-double-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\102-double-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="010-circle-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\010-circle-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imprimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\imprimer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="233-capricorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\233-capricorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="105-zero-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\105-zero-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="084-filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\084-filter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="192-fast-forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\192-fast-forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="095-full-battery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\095-full-battery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="027-slider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\027-slider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="042-stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\042-stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="027-wall-clock-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\027-wall-clock-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="212-symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\212-symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="014-toilet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\014-toilet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoncnx3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoncnx3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="084-logogram-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\084-logogram-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-yin-yang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\002-yin-yang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="048-start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\048-start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009-logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\009-logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="075-shopping-bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\075-shopping-bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize3v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\minimize3v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="014-email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\014-email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="046-show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\046-show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="186-fleur-de-lis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\186-fleur-de-lis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="059-logogram-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\059-logogram-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="048-trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\048-trash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="092-right-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\092-right-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="175-heart-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\175-heart-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="026-refresh-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\026-refresh-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="096-parking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\096-parking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoncnx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoncnx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="064-up-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\064-up-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="250-bar-chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\250-bar-chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="019-smartphone-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\019-smartphone-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="042-share" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\042-share.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="168-brightness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\168-brightness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="190-rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\190-rewind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="malesmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\malesmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="056-shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\056-shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="050-menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\050-menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="153-four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\153-four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="157-joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\157-joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="017-bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\017-bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="232-yen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\232-yen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="034-microphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\034-microphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="047-link" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\047-link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="086-send" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\086-send.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="019-open in browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\019-open in browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="088-play-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\088-play-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="087-pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\087-pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="052-agenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\052-agenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="177-card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\177-card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="038-padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\038-padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="076-triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\076-triangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="161-abecedary-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\161-abecedary-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="030-wall-clock-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\030-wall-clock-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="047-volume-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\047-volume-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="046-shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\046-shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="082-photo-camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\082-photo-camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="118-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\118-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="134-megaphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\134-megaphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="073-repeat-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\073-repeat-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="246-bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\246-bell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="060-logogram-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\060-logogram-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="241-heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\241-heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hiclipart.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\hiclipart.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\background3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="127-smartphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\127-smartphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="144-hashtag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\144-hashtag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="207-exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\207-exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005-mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\005-mute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fasttracker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Fasttracker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="239-spades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\239-spades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="199-wall-clock-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\199-wall-clock-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boutons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Boutons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="249-bargain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\249-bargain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutoncnx3-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutoncnx3-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="091-peace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\091-peace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="041-stop-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\041-stop-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="143-diamond-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\143-diamond-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="026-up-arrow-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\026-up-arrow-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="180-worldwide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\180-worldwide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147-three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\147-three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="022-website" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\022-website.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="121-badge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\121-badge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonannuler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonannuler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="085-back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\085-back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="012-pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\012-pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="107-no-water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\107-no-water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005-loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\005-loading.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009-switch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\009-switch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="016-attachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\016-attachment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="158-kanji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\158-kanji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="054-copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\054-copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="012-wheelchair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\012-wheelchair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="254-baby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\254-baby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="087-play-button-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\087-play-button-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="255-letter-b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\255-letter-b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="010-notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\010-notepad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="095-line-chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\095-line-chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\close3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="022-cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\022-cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029-hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\029-hearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="031-move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\031-move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020-logogram-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\020-logogram-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123-musical-note-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\123-musical-note-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="035-compass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\035-compass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonenregistrer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonenregistrer2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="032-unlocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\032-unlocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="169-question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\169-question.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="062-sagittarius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\062-sagittarius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145-zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\145-zero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\credits.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="151-one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\151-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="014-stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\014-stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="240-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\240-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="116-wall-clock-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\116-wall-clock-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="136-libra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\136-libra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="245-bell-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\245-bell-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="049-checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\049-checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="015-wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\015-wave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="039-restore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\039-restore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="034-up-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\034-up-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonmodifier2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonmodifier2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\002-pencil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="088-check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\088-check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="054-wall-clock-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\054-wall-clock-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="017-headphones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\017-headphones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="023-refresh-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\023-refresh-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008-flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\008-flower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credits2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\credits2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="085-magnifying-glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\085-magnifying-glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="066-down-arrow-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\066-down-arrow-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="066-upload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\066-upload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="167-hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\167-hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="058-wall-clock-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\058-wall-clock-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="108-logogram-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\108-logogram-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="225-repeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\225-repeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="006-question-mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\006-question-mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="191-fast-forward-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\191-fast-forward-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="162-abecedary-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\162-abecedary-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="017-letter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\017-letter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAVPNG_button-download-black-icon_eNmAqqwf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\FAVPNG_button-download-black-icon_eNmAqqwf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="257-atm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\257-atm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="053-send-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\053-send-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="231-checked-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\231-checked-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="224-chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\224-chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="253-back-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\253-back-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="048-volume-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\048-volume-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="036-brightness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\036-brightness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="024-erase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\024-erase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="038-wall-clock-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\038-wall-clock-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closev2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\closev2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="139-luggage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\139-luggage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="097-mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\097-mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="182-free-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\182-free-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="092-pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\092-pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close3v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\close3v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="090-size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\090-size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="111-underage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\111-underage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="104-ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\104-ok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="057-switches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\057-switches.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\minimize3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="010-push-pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\010-push-pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="049-login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\049-login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="043-add folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\043-add folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="081-nuclear-energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\081-nuclear-energy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="101-wall-clock-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\101-wall-clock-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonajout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonajout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="090-pisces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\090-pisces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="146-two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\146-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="131-man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\131-man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="160-numbers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\160-numbers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="077-heart-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\077-heart-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="076-resize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\076-resize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="110-pedestrian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\110-pedestrian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="200-wall-clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\200-wall-clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="022-diagonal-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\022-diagonal-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="135-garbage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\135-garbage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="219-cancel-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\219-cancel-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="035-wall-clock-19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\035-wall-clock-19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="215-customs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\215-customs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="045-worldwide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\045-worldwide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\background2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="128-minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\128-minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007-square-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\007-square-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-button-web-banner-png-clip-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\gold-button-web-banner-png-clip-art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="039-map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\039-map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\error1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008-download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\008-download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="074-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\074-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="132-mahjong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\132-mahjong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="164-information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\164-information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="046-chat-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\046-chat-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="045-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\045-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="204-down-arrow-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\204-down-arrow-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="061-scorpio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\061-scorpio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="079-shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\079-shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="226-abecedary-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\226-abecedary-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="034-settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\034-settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="015-find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\015-find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="056-bluetooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\056-bluetooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="258-aries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\258-aries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="265-letter-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\265-letter-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valid1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\valid1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="099-logogram-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\099-logogram-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011-accept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\011-accept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="019-audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\019-audio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="194-exclamation-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\194-exclamation-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="013-dharma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\013-dharma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="006-plugin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\006-plugin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="156-asterisk-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\156-asterisk-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="210-division" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\210-division.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="041-main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\041-main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="220-cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\220-cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="040-password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\040-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="058-heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\058-heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="252-conveyor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\252-conveyor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="206-down-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\206-down-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="072-repeat-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\072-repeat-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="193-speech-bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\193-speech-bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fasttracker1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Fasttracker1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="098-menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\098-menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="100-bar-chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\100-bar-chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="075-triangle-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\075-triangle-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="074-registered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\074-registered.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="003-heart-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\003-heart-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="037-minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\037-minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="040-taurus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\040-taurus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\background4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="228-circle-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\228-circle-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="072-arroba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\072-arroba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="142-diamond-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\142-diamond-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="109-no-smoking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\109-no-smoking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020-info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\020-info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="028-browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\028-browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="055-wall-clock-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\055-wall-clock-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\logout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="063-next-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\063-next-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001-zzz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\001-zzz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="097-cross-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\097-cross-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011-chevron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\011-chevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="036-wall-clock-18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\036-wall-clock-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="082-heart-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\082-heart-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="201-asterisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\201-asterisk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="236-heart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\236-heart-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="023-accesibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\023-accesibility.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="015-folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\015-folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="222-cool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\222-cool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="094-logogram-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\094-logogram-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="205-down-arrow-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\205-down-arrow-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="125-cancel-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\125-cancel-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="032-expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\032-expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="059-tap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\059-tap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="260-character-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\260-character-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="188-wall-clock-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\188-wall-clock-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="227-letter-m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\227-letter-m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="149-six" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\149-six.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="042-resize-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\042-resize-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="117-wall-clock-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\117-wall-clock-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="261-refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\261-refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008-forbbiden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\008-forbbiden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="217-loop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\217-loop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020-levels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\020-levels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="141-right-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\141-right-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="051-sparkle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\051-sparkle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="071-diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\071-diskette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="032-trident" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\032-trident.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonenr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonenr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="024-tabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\024-tabs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="or5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\or5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="069-printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\069-printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="031-wall-clock-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\031-wall-clock-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021-diagonal-arrow-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\021-diagonal-arrow-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="196-wall-clock-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\196-wall-clock-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="038-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\038-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="208-loop-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\208-loop-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="081-share" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\081-share.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="195-left-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\195-left-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="033-rate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\033-rate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="027-settings-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\027-settings-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="040-bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\040-bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="003-plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\003-plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="044-cloud-computing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\044-cloud-computing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="133-brightness-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\133-brightness-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="262-symbols" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\262-symbols.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009-warning-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\009-warning-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="230-zebra-crossing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\230-zebra-crossing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="052-sos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\052-sos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="237-circle-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\237-circle-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="166-one-hundred" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\166-one-hundred.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="197-wall-clock-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\197-wall-clock-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="063-play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\063-play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="083-forbidden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\083-forbidden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="093-passport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\093-passport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="060-list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\060-list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="181-gemini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\181-gemini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="263-character" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\263-character.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonenregistrer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonenregistrer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonajout2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\boutonajout2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="055-settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\055-settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="202-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\202-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="264-abecedary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\264-abecedary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="247-down-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\247-down-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoapp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\logoapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

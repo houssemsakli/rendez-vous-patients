@@ -1,0 +1,2506 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PROJET VB IG
+</name>
+</assembly>
+<members>
+<member name="T:PROJET_VB_IG.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._001_browser">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._001_view">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._001_zzz">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._002_pencil">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._002_resize_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._002_yin_yang">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._003_heart_11">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._003_plus">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._003_scroll">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._004_menu_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._004_player">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._004_women">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._005_loading">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._005_mute">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._005_square_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._006_chevron">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._006_plugin">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._006_question_mark">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._007_menu">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._007_square_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._007_switch_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._008_download">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._008_flower">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._008_forbbiden">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._009_logout">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._009_switch">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._009_warning_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._010_circle_5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._010_notepad">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._010_push_pin">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._011_accept">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._011_browser">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._011_chevron">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._012_delete_folder">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._012_pause">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._012_wheelchair">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._013_attached">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._013_dharma">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._013_typing">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._014_email">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._014_stop">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._014_toilet">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._015_find">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._015_folder">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._015_wave">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._016_attachment">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._016_transform">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._016_warning">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._017_bookmark">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._017_headphones">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._017_letter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._018_file">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._018_user">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._018_virgo">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._019_audio">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._019_open_in_browser">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._019_smartphone_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._020_info">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._020_levels">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._020_logogram_10">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._021_circled">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._021_diagonal_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._021_slide">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._022_cut">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._022_diagonal_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._022_website">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._023_accesibility">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._023_double_arrow_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._023_refresh_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._024_button_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._024_erase">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._024_tabs">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._025_type">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._025_up_arrow_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._025_upload">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._026_refresh_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._026_search">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._026_up_arrow_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._027_settings_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._027_slider">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._027_wall_clock_23">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._028_browser">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._028_minimize">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._028_wall_clock_22">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._029_chevron">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._029_hearts">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._029_tag">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._030_close">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._030_reduce">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._030_wall_clock_21">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._031_move">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._031_refresh">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._031_wall_clock_20">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._032_expand">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._032_trident">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._032_unlocked">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._033_chevron">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._033_rate">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._033_trademark">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._034_microphone">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._034_settings">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._034_up_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._035_compass">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._035_square">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._035_wall_clock_19">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._036_add">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._036_brightness">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._036_wall_clock_18">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._037_chat_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._037_minus">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._037_more">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._038_padlock">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._038_search">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._038_wall_clock_17">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._039_map">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._039_restore">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._039_wall_clock_16">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._040_bookmark">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._040_password">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._040_taurus">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._041_magic_wand">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._041_main">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._041_stop_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._042_resize_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._042_share">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._042_stop">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._043_add_folder">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._043_loading">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._044_cloud_computing">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._044_minimize">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._045_crescent_moon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._045_search">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._045_worldwide">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._046_chat_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._046_shield">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._046_show">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._047_link">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._047_logout">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._047_volume_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._048_start">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._048_trash">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._048_volume_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._049_checked">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._049_login">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._049_volume">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._050_chat">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._050_heart_10">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._050_menu">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._051_information">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._051_sparkle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._052_agenda">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._052_sos">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._053_next_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._053_send_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._054_copy">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._054_wall_clock_15">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._055_settings">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._055_wall_clock_14">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._056_bluetooth">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._056_shuffle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._057_switches">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._057_wall_clock_13">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._058_heart">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._058_wall_clock_12">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._059_logogram_9">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._059_tap">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._060_list">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._060_logogram_8">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._061_scorpio">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._061_star">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._062_cursor">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._062_sagittarius">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._063_next_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._063_play">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._064_night">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._064_up_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._065_back_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._065_wifi">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._066_down_arrow_5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._066_upload">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._067_chat_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._067_link">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._068_download">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._068_heart_9">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._069_previous">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._069_printer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._070_home">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._070_wc">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._071_diskette">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._071_logogram_7">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._072_arroba">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._072_repeat_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._073_repeat_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._073_user">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._074_image">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._074_registered">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._075_shopping_bag">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._075_triangle_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._076_resize">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._076_triangle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._077_heart_8">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._077_repeat">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._078_add">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._078_circle_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._079_recycling">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._079_shuffle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._080_edit">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._080_record">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._081_nuclear_energy">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._081_share">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._082_heart_7">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._082_photo_camera">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._083_forbidden">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._083_password">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._084_filter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._084_logogram_6">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._085_back">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._085_magnifying_glass">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._086_plus">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._086_send">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._087_pin">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._087_play_button_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._088_check">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._088_play_button">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._089_video_camera">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._089_worship">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._090_pisces">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._090_size">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._091_notification">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._091_peace">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._092_pause">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._092_right_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._093_empty_battery">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._093_passport">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._094_back">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._094_logogram_5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._095_full_battery">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._095_line_chart">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._096_close">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._096_parking">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._097_cross_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._097_mail">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._098_logogram_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._098_menu">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._099_logogram_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._099_power">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._100_bar_chart">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._100_wall_clock_11">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._101_wall_clock_10">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._102_double_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._103_om">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._104_ok">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._105_zero_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._106_logogram_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._107_no_water">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._108_logogram_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._109_no_smoking">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._110_pedestrian">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._111_underage">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._112_no_phone">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._113_litter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._114_no_entry">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._115_bikes">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._116_wall_clock_9">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._117_wall_clock_8">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._118_button">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._119_next">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._120_new">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._121_badge">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._122_muted">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._123_musical_note_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._124_musical_note">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._125_cancel_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._126_logogram">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._127_smartphone">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._128_minus">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._129_menorah">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._130_megaphone_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._131_man">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._132_mahjong">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._133_brightness_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._134_megaphone">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._135_garbage">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._136_libra">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._138_double_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._139_luggage">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._140_left_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._141_right_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._142_diamond_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._143_diamond_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._144_hashtag">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._145_zero">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._146_two">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._147_three">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._148_ten">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._149_six">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._150_seven">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._151_one">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._152_nine">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._153_four">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._154_five">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._155_eight">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._156_asterisk_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._157_joker">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._158_kanji">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._159_symbols_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._160_numbers">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._161_abecedary_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._162_abecedary_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._164_information">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._165_id">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._166_one_hundred">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._167_hot">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._168_brightness">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._169_question">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._170_circle_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._171_exclamation_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._172_cupid">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._173_chocolate_box">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._174_heart_6">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._175_heart_5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._176_heart_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._177_card">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._179_heart_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._180_worldwide">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._181_gemini">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._182_free_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._183_free">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._184_wall_clock_7">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._185_wall_clock_6">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._186_fleur_de_lis">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._187_wall_clock_5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._188_wall_clock_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._190_rewind">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._191_fast_forward_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._192_fast_forward">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._193_speech_bubble">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._194_exclamation_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._195_left_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._196_wall_clock_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._197_wall_clock_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._198_eject">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._199_wall_clock_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._200_wall_clock">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._201_asterisk">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._202_star">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._203_down_arrow_4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._204_down_arrow_3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._205_down_arrow_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._206_down_arrow_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._207_exclamation">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._208_loop_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._209_dollar">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._210_division">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._211_discount">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._212_symbol">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._213_diamond">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._214_cyclone">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._215_customs">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._216_exchange">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._217_loop">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._218_cross">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._219_cancel_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._220_cancel">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._221_copyright">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._222_cool">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._223_congratulations">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._224_chat">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._225_repeat">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._226_abecedary_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._227_letter_m">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._228_circle_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._229_cinema">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._230_zebra_crossing">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._231_checked_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._232_yen">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._233_capricorn">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._234_cancer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._236_heart_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._237_circle_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._238_square_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._239_spades">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._240_square">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._241_heart">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._242_clubs">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._243_circle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._244_biohazard">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._245_bell_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._246_bell">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._247_down_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._248_heart_beating">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._249_bargain">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._250_bar_chart">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._251_checked">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._252_conveyor">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._253_back_arrow">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._254_baby">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._255_letter_b">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._256_physics">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._257_atm">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._258_aries">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._259_aquarius">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._260_character_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._261_refresh">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._262_symbols">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._263_character">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._264_abecedary">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._265_letter_a">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._error">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources._or">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.add">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.background">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.background2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.background3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.background4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonajout">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonajout1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonajout2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonajout3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonannuler">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonannuler2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoncnx">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoncnx2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoncnx3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoncnx3_1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoncnxv2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonenr">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonenregistrer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonenregistrer2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonins">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutoninsv2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonmodifier">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.boutonmodifier2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.Boutons">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.close">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.close3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.close3v2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.closev2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.credits">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.credits1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.credits2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.error1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.Fasttracker">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.Fasttracker1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.FAVPNG_button_download_black_icon_eNmAqqwf">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.female">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.femalesmall">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.gold_button_web_banner_png_clip_art">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.hiclipart_com">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.imprimer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.logoapp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.logoapp1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.logout">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.logout1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.male">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.malesmall">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.minimize3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.minimize3v2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.or2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.or3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.or4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.or5">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.or6">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.remove">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.update">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROJET_VB_IG.My.Resources.Resources.valid1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.comptesinscritsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.patientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.comptesinscritsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.patientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.comptesinscritsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1.patientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.comptesinscritsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.patientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PROJET_VB_IG.ProjetVBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PROJET_VB_IG.ProjetVBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PROJET_VB_IG.ProjetVBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.UpdateAll(PROJET_VB_IG.ProjetVBDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet.comptesinscritsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet.comptesinscritsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSet.comptesinscritsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSetTableAdapters.comptesinscritsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PROJET_VB_IG.ProjetVBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PROJET_VB_IG.ProjetVBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PROJET_VB_IG.ProjetVBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.UpdateAll(PROJET_VB_IG.ProjetVBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PROJET_VB_IG.ProjetVBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

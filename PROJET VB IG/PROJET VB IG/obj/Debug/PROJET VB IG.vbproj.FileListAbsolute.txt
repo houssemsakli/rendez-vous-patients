@@ -1,0 +1,19 @@
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\bin\Debug\PROJET VB IG.exe.config
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\bin\Debug\PROJET VB IG.exe
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\bin\Debug\PROJET VB IG.pdb
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\bin\Debug\PROJET VB IG.xml
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET VB IG.vbprojAssemblyReference.cache
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.Resources.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET VB IG.vbproj.GenerateResource.cache
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET VB IG.exe
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET VB IG.xml
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET VB IG.pdb
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.Accueil.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\bin\Debug\ProjetVB.accdb
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.Navigateur.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.AjouterPatient1.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.ModifierPatient1.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.SupprimerPatient1.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.AjouterRendezVous1.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.ModifierRendezVous1.resources
+C:\Users\sakli\Desktop\Projet VB IG\PROJET VB IG\PROJET VB IG\obj\Debug\PROJET_VB_IG.SupprimerRendezVous1.resources

@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E58A8BAE-2724-477D-834B-845A733B9265}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PROJET_VB_IG.My.MyApplication</StartupObject>
+    <RootNamespace>PROJET_VB_IG</RootNamespace>
+    <AssemblyName>PROJET VB IG</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PROJET VB IG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PROJET VB IG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accueil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.Designer.vb">
+      <DependentUpon>Accueil.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterPatient1.Designer.vb">
+      <DependentUpon>AjouterPatient1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterPatient1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterRendezVous1.Designer.vb">
+      <DependentUpon>AjouterRendezVous1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterRendezVous1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifierPatient1.Designer.vb">
+      <DependentUpon>ModifierPatient1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifierPatient1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifierRendezVous1.Designer.vb">
+      <DependentUpon>ModifierRendezVous1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifierRendezVous1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjetVBDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjetVBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PubVars.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Navigateur.Designer.vb">
+      <DependentUpon>Navigateur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Navigateur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjetVBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjetVBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupprimerPatient1.Designer.vb">
+      <DependentUpon>SupprimerPatient1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupprimerPatient1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupprimerRendezVous1.Designer.vb">
+      <DependentUpon>SupprimerRendezVous1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupprimerRendezVous1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterPatient1.resx">
+      <DependentUpon>AjouterPatient1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterRendezVous1.resx">
+      <DependentUpon>AjouterRendezVous1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifierPatient1.resx">
+      <DependentUpon>ModifierPatient1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifierRendezVous1.resx">
+      <DependentUpon>ModifierRendezVous1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigateur.resx">
+      <DependentUpon>Navigateur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.Accueil.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.AjouterPatient1.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.AjouterRendezVous1.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.ModifierPatient1.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.ModifierRendezVous1.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.Navigateur.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.SupprimerPatient1.resources" />
+    <EmbeddedResource Include="obj\Debug\PROJET_VB_IG.SupprimerRendezVous1.resources" />
+    <EmbeddedResource Include="SupprimerPatient1.resx">
+      <DependentUpon>SupprimerPatient1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupprimerRendezVous1.resx">
+      <DependentUpon>SupprimerRendezVous1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\PROJET VB IG.exe.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\PROJET VB IG.vbproj.GenerateResource.cache" />
+    <None Include="obj\Debug\PROJET VB IG.vbprojAssemblyReference.cache" />
+    <None Include="ProjetVBDataSet.xsc">
+      <DependentUpon>ProjetVBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetVBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjetVBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjetVBDataSet.xss">
+      <DependentUpon>ProjetVBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetVBDataSet1.xsc">
+      <DependentUpon>ProjetVBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetVBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjetVBDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjetVBDataSet1.xss">
+      <DependentUpon>ProjetVBDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\001-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\001-view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\001-zzz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\002-pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\002-resize-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\002-yin-yang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\003-heart-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\003-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\003-scroll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\004-menu-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\004-player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\004-women.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\005-loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\005-mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\005-square-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\006-chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\006-plugin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\006-question-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\007-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\007-square-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\007-switch-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\008-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\008-flower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\008-forbbiden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\009-logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\009-switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\009-warning-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\010-circle-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\010-notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\010-push-pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\011-accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\011-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\011-chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\012-delete folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\012-pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\012-wheelchair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\013-attached.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\013-dharma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\013-typing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\014-email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\014-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\014-toilet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\015-find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\015-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\015-wave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\016-attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\016-transform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\016-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\017-bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\017-headphones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\017-letter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\018-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\018-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\018-virgo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\019-audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\019-open in browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\019-smartphone-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\020-info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\020-levels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\020-logogram-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\021-circled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\021-diagonal-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\021-slide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\022-cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\022-diagonal-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\022-website.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\023-accesibility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\023-double-arrow-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\023-refresh-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\024-button-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\024-erase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\024-tabs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\025-type.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\025-up-arrow-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\025-upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\026-refresh-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\026-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\026-up-arrow-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\027-settings-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\027-slider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\027-wall-clock-23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\028-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\028-minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\028-wall-clock-22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\029-chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\029-hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\029-tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\030-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\030-reduce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\030-wall-clock-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\031-move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\031-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\031-wall-clock-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\032-expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\032-trident.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\032-unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\033-chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\033-rate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\033-trademark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\034-microphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\034-settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\034-up-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\035-compass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\035-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\035-wall-clock-19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\036-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\036-brightness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\036-wall-clock-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\037-chat-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\037-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\037-more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\038-padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\038-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\038-wall-clock-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\039-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\039-restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\039-wall-clock-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\040-bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\040-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\040-taurus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\041-magic-wand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\041-main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\041-stop-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\042-resize-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\042-share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\042-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\043-add folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\043-loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\044-cloud-computing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\044-minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\045-crescent-moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\045-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\045-worldwide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\046-chat-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\046-shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\046-show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\047-link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\047-logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\047-volume-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\048-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\048-trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\048-volume-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\049-checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\049-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\049-volume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\050-chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\050-heart-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\050-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\051-information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\051-sparkle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\052-agenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\052-sos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\053-next-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\053-send-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\054-copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\054-wall-clock-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\055-settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\055-wall-clock-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\056-bluetooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\056-shuffle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\057-switches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\057-wall-clock-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\058-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\058-wall-clock-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\059-logogram-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\059-tap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\060-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\060-logogram-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\061-scorpio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\061-star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\062-cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\062-sagittarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\063-next-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\063-play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\064-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\064-up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\065-back-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\065-wifi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\066-down-arrow-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\066-upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\067-chat-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\067-link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\068-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\068-heart-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\069-previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\069-printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\070-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\070-wc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\071-diskette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\071-logogram-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\072-arroba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\072-repeat-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\073-repeat-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\073-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\074-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\074-registered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\075-shopping-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\075-triangle-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\076-resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\076-triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\077-heart-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\077-repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\078-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\078-circle-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\079-recycling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\079-shuffle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\080-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\080-record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\081-nuclear-energy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\081-share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\082-heart-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\082-photo-camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\083-forbidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\083-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\084-filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\084-logogram-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\085-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\085-magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\086-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\086-send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\087-pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\087-play-button-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\088-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\088-play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\089-video-camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\089-worship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\090-pisces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\090-size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\091-notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\091-peace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\092-pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\092-right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\093-empty-battery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\093-passport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\094-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\094-logogram-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\095-full-battery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\095-line-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\096-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\096-parking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\097-cross-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\097-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\098-logogram-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\098-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\099-logogram-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\099-power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\100-bar-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\100-wall-clock-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\101-wall-clock-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\102-double-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\103-om.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\104-ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\105-zero-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\106-logogram-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\107-no-water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\108-logogram-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\109-no-smoking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\110-pedestrian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\111-underage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\112-no-phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\113-litter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\114-no-entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\115-bikes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\116-wall-clock-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\117-wall-clock-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\118-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\119-next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\120-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\121-badge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\122-muted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\123-musical-note-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\124-musical-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\125-cancel-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\126-logogram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\127-smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\128-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\129-menorah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\130-megaphone-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\131-man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\132-mahjong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\133-brightness-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\134-megaphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\135-garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\136-libra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\138-double-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\139-luggage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\140-left-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\141-right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\142-diamond-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\143-diamond-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\144-hashtag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\145-zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\146-two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\147-three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\148-ten.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\149-six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\150-seven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\151-one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\152-nine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\153-four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\154-five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\155-eight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\156-asterisk-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\157-joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\158-kanji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\159-symbols-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\160-numbers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\161-abecedary-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\162-abecedary-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\164-information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\165-id.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\166-one-hundred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\167-hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\168-brightness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\169-question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\170-circle-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\171-exclamation-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\172-cupid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\173-chocolate-box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\174-heart-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\175-heart-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\176-heart-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\177-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\179-heart-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\180-worldwide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\181-gemini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\182-free-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\183-free.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\184-wall-clock-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\185-wall-clock-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\186-fleur-de-lis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\187-wall-clock-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\188-wall-clock-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\190-rewind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\191-fast-forward-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\192-fast-forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\193-speech-bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\194-exclamation-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\195-left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\196-wall-clock-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\197-wall-clock-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\198-eject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\199-wall-clock-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\200-wall-clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\201-asterisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\202-star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\203-down-arrow-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\204-down-arrow-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\205-down-arrow-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\206-down-arrow-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\207-exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\208-loop-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\209-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\210-division.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\211-discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\212-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\213-diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\214-cyclone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\215-customs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\216-exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\217-loop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\218-cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\219-cancel-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\220-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\221-copyright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\222-cool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\223-congratulations.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\224-chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\225-repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\226-abecedary-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\227-letter-m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\228-circle-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\229-cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\230-zebra-crossing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\231-checked-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\232-yen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\233-capricorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\234-cancer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\236-heart-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\237-circle-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\238-square-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\239-spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\240-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\241-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\242-clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\243-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\244-biohazard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\245-bell-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\246-bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\247-down-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\248-heart-beating.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\249-bargain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\250-bar-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\251-checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\252-conveyor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\253-back-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\254-baby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\255-letter-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\256-physics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\257-atm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\258-aries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\259-aquarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\260-character-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\261-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\262-symbols.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\263-character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\264-abecedary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\265-letter-a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\background4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonajout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonajout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonajout2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonajout3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonannuler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonannuler2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoncnx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoncnx2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoncnx3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoncnx3-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoncnxv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonenr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonenregistrer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonenregistrer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutoninsv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonmodifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\boutonmodifier2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\Boutons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\close3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\close3v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\closev2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\credits.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\credits1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\credits2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\error1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\Fasttracker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\Fasttracker1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\FAVPNG_button-download-black-icon_eNmAqqwf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\femalesmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\gold-button-web-banner-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\hiclipart.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\imprimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\malesmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\minimize3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\minimize3v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\or6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Icons\valid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\PROJET VB IG.exe" />
+    <Content Include="bin\Debug\PROJET VB IG.pdb" />
+    <None Include="My Project\Icons\logoapp.ico" />
+    <None Include="My Project\Icons\logoapp.png" />
+    <Content Include="obj\Debug\PROJET VB IG.exe" />
+    <Content Include="obj\Debug\PROJET VB IG.pdb" />
+    <Content Include="obj\Debug\PROJET VB IG.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\PROJET VB IG.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="obj\Debug\TempPE\ProjetVBDataSet.Designer.vb.dll" />
+    <Content Include="obj\Debug\TempPE\ProjetVBDataSet1.Designer.vb.dll" />
+    <Content Include="ProjetVB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
